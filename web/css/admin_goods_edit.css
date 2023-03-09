@@ -1,0 +1,52 @@
+
+.container{
+    width: 800px;
+
+}
+.edit{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.edit>div:nth-child(3)>input{
+    height: 60px;
+    width: 500px;
+}
+.edit>div:nth-child(7)>input{
+   height: 80px;
+    /*background-color: #a71d2a;*/
+}
+.edit>div:nth-child(6)>input{
+    margin-left: 30px;
+}
+.edit>div>input{
+    height: 40px;
+    width: 250px;
+    margin-top: 16px;
+   margin-left: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+}
+#picture{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.edit>div:nth-child(8)>input{
+    border: none;
+    margin-left: 80px;
+}
+.edit>div:nth-child(9)>span{
+    margin-left: 40px;
+}
+#sub{
+    background-color: #24d2e0;
+    width: 100px;
+    height: 45px;
+    border: 1px solid rosybrown;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+#sub:hover{
+    color: white;
+    background-color: #1bacb7;
+}

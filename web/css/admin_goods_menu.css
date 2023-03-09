@@ -1,0 +1,27 @@
+.aBar1 > div >div .active1{
+    color: red;
+}
+.aBar1{
+    margin: 20px 10px;
+    width:210px;
+    /*//固定住*/
+    position: fixed;
+    left: 10px;
+    top: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.aBar1>div>div{
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+}
+.aBar1>div>div>a{
+    width: 100px;
+    height: 50px;
+  color: black;
+}
+.aBar1>div>div:nth-child(1){
+    font-size: 22px;
+}

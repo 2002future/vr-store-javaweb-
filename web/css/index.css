@@ -1,0 +1,117 @@
+
+.row {
+    float: left;
+}
+
+.container1 {
+    margin-top: 25px;
+    margin-left:120px;
+
+   /*height: 600px;*/
+   /* //因为高度是不确定的，所以不饿能设置高度，转化成块状元素，防止div坍塌，导致页脚塌陷**************************
+   1、设置元素的浮动
+2、将元素设置为行内块元素：display:inline-block  clear：清除浮动元素对当前元素所产生的影响在结尾处添加空div标签clear:both。
+       结尾处的空div会撑起父元素的高度，使其不会塌陷，但会改变页面结构
+2、给父元素设置伪元素选择器，并设置清除浮动的样式。
+       box::after{display:block;clear:both;content:"";}
+3、设置overflow为非visible的值：overflow:hidden导致页脚的坍塌*/
+    display:inline-block;
+   /*width: 1280px;*/
+ border-top: 1px solid rgba(196, 183, 183, 0.21);
+    /*background-color: #7abaff;*/
+}
+
+#news {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.lookMore{
+    float: right;
+    margin-right: 50px;
+    font-size: 14px;
+}
+.lookMore>a{
+    color: black;
+}
+.lookMore>a:hover{
+    text-decoration: none;
+    color: red;
+}
+.moBan {
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgba(196, 183, 183, 0.21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+
+}
+
+.moBan:hover {
+    border: 2px solid rgb(255, 172, 0);
+    box-shadow: 1px 1px 15px #b2b0b0;;
+    /*这两行实现鼠标悬浮的时候div的移动**************************************************************/
+    /*光标变成一只手*/
+    cursor:pointer;
+    /* transform属性 */
+    transform:translate(0,-6px)
+    /* 第一个参数指定X轴的位移量,必填, 第二个参数指定Y轴的位移量,不必填 默认0*/
+}
+/*设置间距*/
+.moBan:nth-child(4n+1){
+  margin-top: 8px;
+}
+.moBan{
+    margin-left: 6px;
+}
+.imgA {
+    width: 112px;
+    height: 160px;
+}
+
+.nameA {
+    margin-top: 5px;
+}
+.nameA>a{
+   color: black;
+    font-size: 14px;
+}
+.nameA>a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.fun {
+    margin-top: 200px;
+    margin-left: 220px;
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    /*border: 1px solid red;*/
+}
+.sell{
+    font-size: 12px;
+    padding-top: 5px;
+}
+.pri{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.gouWuChe {
+    width: 30px;
+    height: 30px;
+
+
+}
+.skr{
+    margin-top: 20px;
+    height: 10px;
+}
+.carousel-item>img{
+    width: 500px;
+    height: 400px;
+}

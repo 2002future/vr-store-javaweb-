@@ -1,0 +1,38 @@
+.lei {
+    height: 500px;
+    width: 1100px;
+    background-color: #ffffff;
+    margin-left: 300px;
+    padding-top: 20px;
+    margin-top:50px;
+    font-weight: bolder;
+
+}
+.lei>div{
+  margin-left: 100px;
+    background-color: #ffffff;
+    height: 60px;
+    width: 550px;
+  /*border-bottom: 1px solid #c7c3c3;*/
+    line-height: 60px;;
+}
+.lei>div:first-child{
+    margin-bottom: 20px;
+}
+.lei img{
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid rgba(141, 135, 135, 0.21);
+    float: right;
+    margin-right: 200px;
+
+}
+.lei>div>input{
+    width: 280px;
+    font-weight: bold;
+    margin-top: 10px;
+    height: 30px;
+    text-align: left;
+    border: none;
+    float: right;
+}

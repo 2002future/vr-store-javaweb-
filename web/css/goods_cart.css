@@ -1,0 +1,16 @@
+.tabls{
+         text-align: center;
+
+}
+.tabls>tr:nth-child(1){
+
+}
+.tablen{
+   border-top: 1px solid #c4bfbf;
+}
+.tablen:nth-child(1){
+    margin-top: 10px;
+}
+.shan:hover{
+    color: red;
+}

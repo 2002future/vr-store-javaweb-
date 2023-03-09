@@ -1,0 +1,102 @@
+
+.sum {
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    /*设置盒子的阴影面积*/
+    box-shadow: 1px 1px 15px #abaaaa;
+    width: 1200px;
+    height: 500px;
+
+}
+
+/*左边区域*/
+.left {
+    float: left;
+    background: #0ea7b2;
+    width: 600px;
+    height: 500px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.left > div:nth-child(1) {
+
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.left > div:nth-child(2) {
+
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.left > div:nth-child(3) {
+
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.left > div:nth-child(3) > button {
+    border-radius: 15px;
+    width: 100px;
+    background: #0ea7b2;
+    border: 1px solid white;
+    color: white;
+
+}
+.left > div:nth-child(3) > button>a{
+    text-decoration: none;
+    color: #00f6ea;
+
+}
+.left > div:nth-child(3) > button>a:hover{
+    color: white;
+}
+/*右边区域*/
+.right {
+    width: 600px;
+    height: 500px;
+    float: left;
+
+}
+
+.right > div {
+    margin-bottom: 5px;
+    width: 350px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.right > div:nth-child(1) {
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10%;
+}
+
+input {
+    border-radius: 5px;
+    background: rgb(245, 245, 245);
+    width: 350px;
+    height: 40px;
+    border: none;
+
+}
+
+.sumB input {
+    margin-left: 80px;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    background: #0ea7b2;
+    border: 1px solid white;
+    color: white;
+}
+

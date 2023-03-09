@@ -1,0 +1,73 @@
+.container{
+    margin-top: 20px;
+    height: 340px;
+}
+.container1 {
+    width: 300px;
+    height: 250px;
+    /*background-color: #7abaff;*/
+    border: 1px solid rgb(199, 191, 191);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.amM{
+    float: left;
+    margin-left: 100px;
+    font-size: 14px;
+}
+img{
+    width: 112px;
+    height: 160px;
+}
+.contain{
+    height: 300px;
+    width: 300px;
+    /*background-color: #7abaff;*/
+    float: left;
+    margin-left: 40px;
+}
+
+.contain>div:nth-child(1){
+    font-size:22px;
+    font-weight: bold;
+}
+.contain>div:nth-child(2){
+    font-size:14px;
+    font-weight:lighter;
+}
+.contain>div:nth-child(3){
+    font-size:20px;
+    font-weight:bold;
+    color: rgba(210, 5, 5, 0.91);
+    margin-top: 20px;
+}
+.contain>div:nth-child(4)>button{
+    background-color: #a71d2a;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.contain>div:nth-child(4)>button>a{
+    color: #d5d3d3;
+}
+.contain>div:nth-child(4)>button>a:hover{
+    color: white;
+    text-decoration: none;
+}
+.msg>div:nth-child(1){
+    float: left;
+    margin-right: 20px;
+}
+.msg>div:nth-child(3){
+    float: left;
+    margin-right: 25px;
+
+}

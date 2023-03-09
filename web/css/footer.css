@@ -1,0 +1,32 @@
+.footer{
+    height: 200px;
+    background-color: rgba(241, 241, 241, 0.97);
+    /*box-shadow: 1px 1px 15px #c9c8c8;;*/
+    border-radius: 5px;
+   margin-top: 80px;
+    left: 30px;
+    bottom: 20px;
+    font-size: 14px;
+}
+.Ac{
+   font-weight: lighter;
+    font-size: 12px;
+    color: #a2a0a0;
+}
+#ima{
+    float: left;
+
+}
+.container>div:nth-child(2){
+    padding-top: 30px;
+}
+.container>div:nth-child(4){
+   font-size: 12px;
+}
+.container>div:nth-child(4)>a{
+  float: left;
+    margin-right: 20px;
+}
+.container>div:nth-child(4)>a:last-child{
+    float: none;
+}

@@ -1,0 +1,106 @@
+/*active实现跳转的时候导航样式保留*/
+.Bar > div > .active {
+    /*只能设计背景色,颜色好像应用不上去 优先级问题 上面的Bar a导致的            --已经解决  .Bar>div>.active  */
+    background: #0ea7b2;
+    color: white;
+    /*高亮效果*/
+    text-shadow: 0px 0px 8px #fff, 0px 0px 12px #f37e35, 0px 0px 24px #f84, 0px 0px 48px #fa5;
+}
+
+/*‘+’选择器则表示某元素后相邻的兄弟元素，也就是紧挨着的，是单个的。而‘~’选择器则表示某元素后所有同级的指定元素，强调所有的。*/
+li {
+    float: left;
+}
+
+.Bar {
+    margin: 0px 10px;
+    height: 50px;
+    /*border: 1px solid red;*/
+    color: white;
+    background-color: rgb(51, 51, 51);
+    /*background: #ffc107;*/
+    box-shadow: 1px 1px 15px #b2b0b0;
+    border-radius: 10px;
+}
+
+.Bar > div {
+    float: left;
+    /*background: #0f6674;*/
+    font-size: 14px;
+}
+
+.Bar a {
+    width: 100px;
+    height: 50px;
+    /*这两行是文本水平居中*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /*color: #000;*/
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Bar > div > a:hover {
+    background: #0ea7b2;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    /*高亮效果*/
+    text-shadow: 0px 0px 8px #fff, 0px 0px 12px #f89557, 0px 0px 24px #f39f6e, 0px 0px 48px #f5b474;
+}
+
+.fen {
+    width: 75%;
+    height: 70px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 15px #b2b0b0;
+    border-radius: 10px;
+
+}
+
+.fen > li {
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fen > li > a {
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.inpu {
+    width: 200px;
+    height: 35px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+.inpu + button {
+    border-radius: 5px;
+    width: 50px;
+    height: 35px;
+}
+
+.Bar > div:last-child {
+    float: right;
+}
+
+#yuanquan {
+    color: red;
+
+    border-radius: 50%;
+    width: 17px;
+    height:17px;
+    text-align:center;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 30px;
+    top:1px;
+}

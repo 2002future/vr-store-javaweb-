@@ -27,3 +27,4 @@ javaweb版本电子设备商城（后续更新SSM版和springbootmp版）
 ![image](https://user-images.githubusercontent.com/82950413/224036247-792e4a56-1438-4f18-a78f-05ae0721c791.png)
 
 <h1>在c3p0.xml文件中中把数据库改成自己的密码</h1>
+<h3个人javaweb大作业，纯手写 包括css和js 无参考任何源码，不会重复，需要的伙伴冲冲冲。</h3>
